@@ -1,0 +1,19 @@
+{
+  "name": "web-component-router-js",
+  "version": "0.1.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hossein-vejdani/poor-js-router.git"
+  },
+  "keywords": ["router", "poor js router", "router in poor js", "js router"],
+  "author": "hossein vejdani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hossein-vejdani/poor-js-router/issues"
+  },
+  "homepage": "https://github.com/hossein-vejdani/poor-js-router#readme"
+}
