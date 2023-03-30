@@ -242,10 +242,11 @@ router.setListener('beforeEach', (from, to, next) => {
 });
 ```
 In this example, the router guard checks whether the user is trying to access the panel route. If user has permission to access the route. If the user has access, the next function is called to proceed. Otherwise, it redirects the user to the "/403" route.
-## Example
+
+## Example project
 To help you get started with this package, we have created an example project that uses the package to build a simple online shop. The example project uses the Fake Store API to display products, and it demonstrates how to use the router to navigate between different pages.
 
-You can check out the example project by visiting this link: https://router-shop.000webhostapp.com/
+You can check out the example project by visiting this link: https://router-shop.000webhostapp.com/ and also you can access to source codes on this git repository https://github.com/hossein-vejdani/spa-web-component-shop
 
 In this example project, you will see how to use the router to:
 

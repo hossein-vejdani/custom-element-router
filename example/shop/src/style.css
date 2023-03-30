@@ -60,6 +60,7 @@ body {
     line-height: 1.5;
     color: var(--black-500);
     background-color: var(--white-100);
+    padding-bottom: 2rem;
 }
 
 main {
