@@ -11,7 +11,6 @@ class Base {
     }
     loadPage(page) {
         return __awaiter(this, void 0, void 0, function* () {
-            console.log(page);
             const originalPageName = page;
             if (this.pageName === page) {
                 return;
@@ -100,7 +99,6 @@ class Base {
         }
         const route = lastRoutes[index];
         const elName = `route-${route.name}`;
-        console.log(el);
         setTimeout(() => {
             try {
                 let routeEl = el.shadowRoot.querySelector(elName);

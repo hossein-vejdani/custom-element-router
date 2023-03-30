@@ -65,7 +65,6 @@ export class Router {
     }
 
     setListener(event: Events, listener: RouterEventFn) {
-        console.log(event, listener)
         const validEvents = ['onload', 'change', 'beforeEach']
         if (validEvents.includes(event)) (this.events as any)[event] = listener
         else throw new Error('invalid event')

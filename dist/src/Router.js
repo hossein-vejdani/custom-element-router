@@ -53,7 +53,6 @@ export class Router {
         Router.router.go(number);
     }
     setListener(event, listener) {
-        console.log(event, listener);
         const validEvents = ['onload', 'change', 'beforeEach'];
         if (validEvents.includes(event))
             this.events[event] = listener;
