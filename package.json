@@ -1,19 +1,34 @@
 {
-  "name": "web-component-router-js",
-  "version": "0.1.1",
-  "main": "index.js",
+  "name": "custom-element-router",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "browser": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "tsc --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hossein-vejdani/poor-js-router.git"
   },
-  "keywords": ["router", "poor js router", "router in poor js", "js router"],
+  "keywords": [
+    "router",
+    "web components",
+    "web components router",
+    "custom element",
+    "custom element router",
+    "routerjs",
+    "js router"
+  ],
   "author": "hossein vejdani",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hossein-vejdani/poor-js-router/issues"
   },
-  "homepage": "https://github.com/hossein-vejdani/poor-js-router#readme"
+  "homepage": "https://github.com/hossein-vejdani/poor-js-router#readme",
+  "dependencies": {}
 }
